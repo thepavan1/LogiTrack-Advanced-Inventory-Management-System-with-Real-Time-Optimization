@@ -1,8 +1,4 @@
 LogiTrack : Inventory Management System
-https://img.shields.io/badge/Python-3.9%252B-blue
-https://img.shields.io/badge/Streamlit-1.28.0-red
-https://img.shields.io/badge/License-MIT-green
-https://img.shields.io/badge/Last%2520Updated-2025--03--24-brightgreen
 
 LogiTrack is a modern, web-based inventory management system built with Python and Streamlit. It provides real-time optimization of warehouse inventory distribution, order management, and supply chain analytics.
 
