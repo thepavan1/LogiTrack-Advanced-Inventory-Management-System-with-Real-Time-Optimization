@@ -1,0 +1,4 @@
+supplier_id,supplier_name,reliability_score,lead_time_reliability,quality_score,payment_terms
+SUP001,Tech Solutions Inc,0.95,0.92,0.98,Net 30
+SUP002,Global Electronics,0.88,0.85,0.95,Net 45
+SUP003,Quality Parts Ltd,0.92,0.90,0.96,Net 30

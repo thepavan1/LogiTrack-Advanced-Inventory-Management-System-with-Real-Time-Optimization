@@ -1,0 +1,7 @@
+warehouse_id,name,capacity,current_stock,location,storage_cost,last_updated,latitude,longitude
+W001,Mumbai Central,10000,7500,Mumbai,1200,2025-03-24 20:39:55,19.0760,72.8777
+W002,Singapore Hub,15000,12000,Singapore,1500,2025-03-24 20:39:55,1.3521,103.8198
+W003,Dubai Logistics,8000,6000,Dubai,1000,2025-03-24 20:39:55,25.2048,55.2708
+W004,New York DC,12000,9500,New York,1300,2025-03-24 20:39:55,40.7128,-74.0060
+W005,London Center,9000,7000,London,1100,2025-03-24 20:39:55,51.5074,-0.1278
+W006,Tokyo Port,11000,8500,Tokyo,1400,2025-03-24 20:39:55,35.6762,139.6503

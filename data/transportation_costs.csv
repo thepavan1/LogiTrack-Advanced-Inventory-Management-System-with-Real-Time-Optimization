@@ -1,0 +1,5 @@
+origin_region,destination_region,cost_per_mile,transit_time_days,carrier_id
+Dallas TX,California,1.20,2,CAR001
+Dallas TX,New York,1.35,3,CAR002
+Atlanta GA,Florida,1.15,1,CAR001
+Chicago IL,Texas,1.25,2,CAR003

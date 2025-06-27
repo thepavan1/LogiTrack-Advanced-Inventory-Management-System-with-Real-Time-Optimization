@@ -1,0 +1,4 @@
+product_id,product_name,category,unit_cost,reorder_point,lead_time_days,min_order_qty,supplier_id
+PROD001,Basic Widget,Electronics,15.00,1000,3,500,SUP001
+PROD002,Premium Widget,Electronics,22.00,800,4,400,SUP002
+PROD003,Super Widget,Electronics,30.00,600,5,300,SUP001
