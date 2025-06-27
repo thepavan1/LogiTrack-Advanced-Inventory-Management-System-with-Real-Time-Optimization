@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Supply Chain - Vehicle Tracking</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f3f3f3;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+    .controls {
+      background: white;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    select {
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+    #map {
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    #routeInfo {
+      margin-top: 10px;
+      padding: 10px;
+      background: #e8f4f8;
+      border-radius: 4px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Smart Supply Chain - Real-Time Vehicle Tracking</h1>
+  
+  <div class="controls">
+    <label for="destinationSelect">Select Warehouse:</label>
+    <select id="destinationSelect">
+      <option value="">-- Select Destination --</option>
+      <option value="bangalore">Warehouse - Bangalore</option>
+      <option value="chennai">Warehouse - Chennai</option>
+      <option value="hyderabad">Warehouse - Hyderabad</option>
+    </select>
+    <div id="routeInfo">
+      <strong>Route Info:</strong>
+      <span id="distance">Distance: -</span> | 
+      <span id="duration">Estimated Time: -</span>
+    </div>
+  </div>
+
+  <div id="map" style="height: 600px; width: 100%; margin-top: 20px;"></div>
+
+  <script src="routing.js"></script>
+  <script src="tracking.js"></script>
+  
+  <script>
+    // Simple loading indicator
+    document.getElementById('destinationSelect').addEventListener('change', function() {
+      if (this.value) {
+        document.getElementById('routeInfo').style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>
